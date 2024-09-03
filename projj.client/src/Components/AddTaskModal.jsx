@@ -23,11 +23,6 @@ const AddTaskModal = ({ projectId, setCurrentProjectTasks, currentProjectTasks }
     dueByDate: "",
   });
 
-  const isBeforeToday = (date) => {
-    var today = new Date(new Date().toString().substring(0, 15));
-    return date < today;
-  };
-
   const handleAddTaskFormChange = (e) => {
     const { name, value } = e.target;
     setAddTaskFormData((prevState) => ({
