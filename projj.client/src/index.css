@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "inter";
+  src: url(../public/fonts/inter/Inter-Bold.ttf);
+}
+.inter-font {
+  font-family: "inter", sans-serif;
+}

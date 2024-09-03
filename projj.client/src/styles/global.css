@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "inter";
+  src: url(/fonts/inter/);
+  src: url(/fonts/Inter-Medium.ttf) format("truetype");
+}
+.font-header {
+  font-family: "izistwo", sans-serif;
+}
