@@ -44,7 +44,7 @@ const Login = () => {
     toast(
       <div>
         Hi, <span className="text-secondary">{newCurrentUser.userName}. </span>
-        You are now logged in.
+        You are now logged in!
       </div>
     );
     return response;

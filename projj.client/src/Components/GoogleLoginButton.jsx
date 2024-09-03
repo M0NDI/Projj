@@ -30,7 +30,7 @@ const GoogleLoginButton = () => {
       dispatch(setLoginTrue());
       console.log(result);
       navigate("/projects");
-      toast(<div>You are now logged in.</div>);
+      toast.success(<div>You are now logged in!</div>);
     }
   };
 

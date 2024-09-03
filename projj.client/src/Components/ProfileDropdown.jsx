@@ -28,7 +28,7 @@ export default function ProfileDropdown() {
     if (result) {
       navigate("/");
       dispatch(setLoginFalse());
-      toast("You have been logged out!", {
+      toast.success("You have been logged out!", {
         position: "top-right",
         transition: Slide,
       });

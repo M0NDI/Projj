@@ -20,7 +20,13 @@ const AddTaskModal = ({ projectId, setCurrentProjectTasks, currentProjectTasks }
   const [addTaskFormData, setAddTaskFormData] = useState({
     name: "",
     description: "",
+    dueByDate: "",
   });
+
+  const isBeforeToday = (date) => {
+    var today = new Date(new Date().toString().substring(0, 15));
+    return date < today;
+  };
 
   const handleAddTaskFormChange = (e) => {
     const { name, value } = e.target;
@@ -101,6 +107,19 @@ const AddTaskModal = ({ projectId, setCurrentProjectTasks, currentProjectTasks }
                       placeholderData="Enter task description"
                       inputType="text"
                       handleChange={handleAddTaskFormChange}
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <InputBox
+                      name="dueByDate"
+                      inputLabel="Due date"
+                      handleChange={handleAddTaskFormChange}
+                      placeholderData={
+                        handleAddTaskFormChange.dueByDate
+                          ? format(new Date(addTaskFormData.dueByDate), "yyyy-MM-dd")
+                          : ""
+                      }
+                      inputType="date"
                     />
                   </div>
                 </ModalBody>

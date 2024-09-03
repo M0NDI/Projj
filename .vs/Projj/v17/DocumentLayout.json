@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\dtos\\taskdtos\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\dtos\\taskdtos\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\dtos\\projectdtos\\addprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\dtos\\projectdtos\\addprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -28,10 +36,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\dtos\\projectdtos\\addprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\dtos\\projectdtos\\addprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,10 +68,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\services\\projecttaskservices\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\services\\projecttaskservices\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\dtos\\taskdtos\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|solutionrelative:projj.server\\dtos\\taskdtos\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7A8EEF0-D0CB-486F-A499-9F16CAAABC4D}|Projj.Server\\Projj.Server.csproj|d:\\backups\\documents\\mondi\\asp.net\\projj\\projj.server\\dtos\\projectdtos\\updateprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,35 +117,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\armon\\AppData\\Roaming\\Microsoft\\UserSecrets\\4585f45b-4201-4ca8-87c1-c06b0463bcb5\\secrets.json",
-              "ToolTip": "C:\\Users\\armon\\AppData\\Roaming\\Microsoft\\UserSecrets\\4585f45b-4201-4ca8-87c1-c06b0463bcb5\\secrets.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-03T11:35:17.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
-              "RelativeDocumentMoniker": "Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
-              "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
-              "RelativeToolTip": "Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:11:39.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Program.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Program.cs",
@@ -153,25 +129,72 @@
               "RelativeToolTip": "Projj.Server\\Program.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAowCsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T22:34:35.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T22:34:35.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\appsettings.json",
               "RelativeDocumentMoniker": "Projj.Server\\appsettings.json",
               "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\appsettings.json",
               "RelativeToolTip": "Projj.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-16T22:38:30.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddTaskDto.cs",
+              "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
+              "RelativeDocumentMoniker": "Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
+              "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
+              "RelativeToolTip": "Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T22:44:54.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProjectDto.cs",
+              "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
+              "RelativeDocumentMoniker": "Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
+              "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
+              "RelativeToolTip": "Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:16:09.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
+              "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
+              "RelativeToolTip": "Projj.Server\\Services\\ProjectServices\\ProjectService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T11:11:39.877Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\armon\\AppData\\Roaming\\Microsoft\\UserSecrets\\4585f45b-4201-4ca8-87c1-c06b0463bcb5\\secrets.json",
+              "ToolTip": "C:\\Users\\armon\\AppData\\Roaming\\Microsoft\\UserSecrets\\4585f45b-4201-4ca8-87c1-c06b0463bcb5\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T11:35:17.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProjectController.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Controllers\\ProjectController.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Controllers\\ProjectController.cs",
@@ -183,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Project.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Models\\Project.cs",
@@ -195,19 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddProjectDto.cs",
-              "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
-              "RelativeDocumentMoniker": "Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
-              "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
-              "RelativeToolTip": "Projj.Server\\DTOs\\ProjectDtos\\AddProjectDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:16:09.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Controllers\\UserController.cs",
@@ -219,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IProjectService.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\ProjectServices\\IProjectService.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Services\\ProjectServices\\IProjectService.cs",
@@ -231,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\UserDtos\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "Projj.Server\\DTOs\\UserDtos\\RegisterUserDto.cs",
@@ -243,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\UserServices\\UserService.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Services\\UserServices\\UserService.cs",
@@ -255,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GoogleAuthRequest.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\UserDtos\\GoogleAuthRequest.cs",
               "RelativeDocumentMoniker": "Projj.Server\\DTOs\\UserDtos\\GoogleAuthRequest.cs",
@@ -267,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TaskController.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Controllers\\TaskController.cs",
@@ -279,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\UserServices\\IUserService.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Services\\UserServices\\IUserService.cs",
@@ -291,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AutoMapperConfig.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\AutoMapper\\AutoMapperConfig.cs",
               "RelativeDocumentMoniker": "Projj.Server\\AutoMapper\\AutoMapperConfig.cs",
@@ -303,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TaskService.cs",
               "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\Services\\ProjectTaskServices\\TaskService.cs",
               "RelativeDocumentMoniker": "Projj.Server\\Services\\ProjectTaskServices\\TaskService.cs",
@@ -312,18 +323,6 @@
               "ViewState": "AQIAACEAAAAAAAAAAAAowB0AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T22:36:14.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddTaskDto.cs",
-              "DocumentMoniker": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
-              "RelativeDocumentMoniker": "Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
-              "ToolTip": "D:\\Backups\\Documents\\Mondi\\ASP.NET\\Projj\\Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
-              "RelativeToolTip": "Projj.Server\\DTOs\\TaskDtos\\AddTaskDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T22:44:54.865Z"
             },
             {
               "$type": "Document",

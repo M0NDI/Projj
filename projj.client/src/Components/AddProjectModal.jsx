@@ -74,9 +74,7 @@ const AddProjectModal = () => {
         dispatch(setProjects(result));
       }
 
-      toast("Successfully created project!", {
-        transition: Flip,
-      });
+      toast.success("Successfully created project!");
     } catch (error) {
       toast.error(error.message, {
         transition: Flip,

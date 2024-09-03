@@ -30,14 +30,11 @@ const ConfirmProjectDeleteModal = ({ projectName }) => {
       }
     }
 
-    toast(
+    toast.success(
       <div>
         Successfully deleted project with name of{" "}
         <span style={{ color: "red" }}>{projectName}</span>
-      </div>,
-      {
-        transition: Flip,
-      }
+      </div>
     );
   };
 

@@ -83,20 +83,10 @@ const Project = () => {
         projectFormData.status,
         projectFormData.dueByDate
       );
-      toast.success("Project updated successfully!", {
-        position: "top-right",
-        autoClose: 1000,
-        theme: "dark",
-        transition: Flip,
-      });
+      toast.success("Project updated successfully!");
       return response;
     } catch (error) {
-      toast.error("Error updating project: " + error.message, {
-        position: "top-right",
-        autoClose: 1000,
-        theme: "dark",
-        transition: Flip,
-      });
+      toast.error("Error updating project: " + error.message);
     }
   };
 
@@ -110,7 +100,7 @@ const Project = () => {
       };
       const updatedTask = await updateTask(taskId, formattedTaskData);
 
-      toast(
+      toast.success(
         <div>
           Successfully updated task with pre-update name of{" "}
           <span style={{ color: "red" }}>{taskBeingUpdated.name.substring(0, 20)}</span>
