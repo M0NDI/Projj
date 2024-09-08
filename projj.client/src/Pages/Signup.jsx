@@ -1,75 +1,71 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import InputBox from "../Components/InputBox";
-import { getCurrentUser, loginUser } from "../API/UserApi";
-import { toast, Flip } from "react-toastify";
-import { Link, useNavigate } from "react-router-dom";
-import { setLoginTrue } from "../ReduxState/loginStatusSlice";
-import { useDispatch } from "react-redux";
-import { setCurrentUser } from "../ReduxState/currentUserSlice";
-import "../styles/Login.css";
+import { Link } from "@nextui-org/react";
 import GoogleLoginButton from "../Components/GoogleLoginButton";
+import { useState } from "react";
+import { registerUser } from "../API/UserApi";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import questionMarkIcon from "../assets/question-mark-icon.svg";
 import GoogleLoginQuestionMarkHover from "../Components/GoogleLoginQuestionMarkHover";
 
-const Login = () => {
+
+const Signup = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
 
   const [isQuestionMarkHovered, setIsQuestionMarkHovered] = useState(false);
   const handleQuestionMarkHover = () => {
     setIsQuestionMarkHovered(!isQuestionMarkHovered);
   };
 
-  const [loginFormData, setLoginFormData] = useState({
-    userName: "",
+  const [signupFormData, setSignupFormData] = useState({
+    username: "",
     password: "",
+    email: "",
   });
 
-  const handleLoginFormDataChange = (e) => {
+  const handleSignupFormDataChange = (e) => {
     const { name, value } = e.target;
-    setLoginFormData((prevState) => ({
+    setSignupFormData((prevState) => ({
       ...prevState,
       [name]: value,
     }));
   };
 
-  const handleLogin = async (e) => {
+  const handleSignup = async (e) => {
     e.preventDefault();
-    const response = await loginUser(loginFormData);
-    if (!response.succeeded) {
-      toast.error("Invalid login credentials");
+    console.log(signupFormData);
+    const registerData = {
+      UserName: signupFormData.username,
+      Password: signupFormData.password,
+      Email: signupFormData.email,
+    };
+    if (!signupFormData.username || !signupFormData.password || !signupFormData.email) {
+      toast.error("Please fill in all fields");
       return;
     }
-    setTimeout(() => {
-      navigate("/projects");
-    }, 100);
-    dispatch(setLoginTrue());
-    const newCurrentUser = await getCurrentUser();
-    if (newCurrentUser) {
-      dispatch(setCurrentUser(newCurrentUser));
+    const response = await registerUser(registerData);
+    if (response) {
+      console.log(response);
+      toast.success("You have successfully signed up");
+      navigate("/login");
     }
-    toast(
-      <div>
-        Hi, <span className="text-secondary">{newCurrentUser.userName}. </span>
-        You are now logged in!
-      </div>
-    );
     return response;
   };
 
   return (
     <div className="login-main text-primary h-screen w-screen bg-primary flex justify-between">
-      <form className="login-form w-full h-full flex" onSubmit={handleLogin}>
+      <form className="login-form w-full h-full flex" onSubmit={handleSignup}>
         <div className="login-inner w-full h-96 m-auto text-secondary flex flex-col justify-between">
           <div className="text-7xl w-full h-1/3 text-center flex items-center justify-center text-black font-black">
-            Login
+            Signup
           </div>
           <div className="mb-2 mt-4 w-60 m-auto text-black outline outline-secondary rounded-xl">
             <InputBox
               name="username"
               inputLabel="Username"
               inputType="text"
-              handleChange={handleLoginFormDataChange}
+              handleChange={handleSignupFormDataChange}
             />
           </div>
           <div className="mb-2 w-60 m-auto text-black outline outline-secondary rounded-xl">
@@ -77,7 +73,15 @@ const Login = () => {
               name="password"
               inputLabel="Password"
               inputType="password"
-              handleChange={handleLoginFormDataChange}
+              handleChange={handleSignupFormDataChange}
+            />
+          </div>
+          <div className="mb-2 w-60 m-auto text-black outline outline-secondary rounded-xl">
+            <InputBox
+              name="email"
+              inputLabel="Email"
+              inputType="text"
+              handleChange={handleSignupFormDataChange}
             />
           </div>
           <div className="w-60 m-auto">
@@ -85,11 +89,11 @@ const Login = () => {
               className="bg-secondary text-primary w-60 mt-2 p-1 rounded hover:opacity-75 hover:bg-yellow-300 hover:text-secondary hover:transition hover:duration-300 hover:shadow-emerald-600 font-semibold active:scale-x-95 active:scale-y-95"
               type="submit"
             >
-              LOGIN
+              SIGN UP
             </button>
           </div>
           <div className="m-auto text-secondary text-xs text-center mt-4">
-          <div
+            <div
               className="mb-2 flex justify-center items-center h-8 hover:outline hover:outline-1 hover:rounded"
               onMouseEnter={handleQuestionMarkHover}
               onMouseLeave={handleQuestionMarkHover}
@@ -104,23 +108,11 @@ const Login = () => {
               <GoogleLoginButton />
             </div>
           </div>
-          <div className="text-xs w-60 mt-4 flex justify-evenly items-center m-auto">
-            Don't have an account?
-            <div className="text-yellow-300 flex items-center rounded">
-              <Link to={"/signup"}>
-                <button
-                  className="bg-secondary text-primary w-18 p-1 opacity-50 rounded hover:opacity-75 hover:bg-yellow-300 hover:text-secondary hover:transition hover:duration-300 hover:shadow-emerald-600 font-semibold active:scale-x-95 active:scale-y-95"
-                  type="submit"
-                >
-                  SIGN UP
-                </button>
-              </Link>
-            </div>
-          </div>
+          
         </div>
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

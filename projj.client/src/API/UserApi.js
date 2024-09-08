@@ -31,4 +31,14 @@ const logoutUser = async () => {
   return response.data;
 };
 
-export { isLoggedIn, getCurrentUser, loginUser, logoutUser };
+const registerUser = async (registerData) => {
+  try {
+    const response = await axios.post(`${baseUrl}User/register`, registerData);
+    return response.data;
+  } catch (error) {
+    console.error(error.response ? error.response.data : error.message);
+    throw error;
+  }
+};
+
+export { isLoggedIn, getCurrentUser, loginUser, registerUser, logoutUser };

@@ -8,6 +8,7 @@ import Project from "./Pages/Project";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Features from "./Pages/Features";
+import Signup from "./Pages/Signup";
 
 function App() {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/features" element={<Features />} />
         <Route path="/project/:projectId" element={<Project />} />
       </Routes>

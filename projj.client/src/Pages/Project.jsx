@@ -335,7 +335,7 @@ const Project = () => {
         </form>
       ) : (
         <div className="mt-12 mb-12 text-2xl text-secondary font-semibold text-center">
-          There are no tasks. Click "Add new task" to build your task list!
+          There are no tasks for this project. Click "Add new task" to build your task list!
         </div>
       )}
     </div>

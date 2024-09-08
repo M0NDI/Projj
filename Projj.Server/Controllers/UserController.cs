@@ -29,7 +29,7 @@ namespace Projj.Server.Controllers
 
         [HttpPost]
         [Route("register")]
-        public async Task<ActionResult> RegisterUserAsync(RegisterUserDto model)
+        public async Task<ActionResult> RegisterUserAsync([FromBody] RegisterUserDto model)
         {
             var result = await _userService.AddUserAsync(model);
             if (result.Succeeded != false)
@@ -40,7 +40,7 @@ namespace Projj.Server.Controllers
             {
                 return BadRequest(result.Errors);
             }
-        }
+        } 
 
         [HttpPost]
         [Route("login")]
